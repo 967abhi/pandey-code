@@ -1,0 +1,218 @@
+ <div className='flex gap-10 justify-center mt-8'>
+          <div className='flex flex-col w-[315px] justify-between'>
+            <div className='text-white text-center relative font-bold uppercase rounded-xl bg-[#044FB0] px-16 py-4 text-[17.8pt] '>
+              <div className='w-[106.4px] aspect-square rounded-full absolute top-1/2 translate-y-[-50%] -left-5 bg-[#BC9C69]' />
+              <p>Bronze</p>
+            </div>
+
+            <ul className='bg-white font-semibold text-[14.4pt] py-7 flex flex-col gap-2 flex-1'>
+              <li className='flex items-center gap-4 px-7'>
+                <BsCheckCircleFill className='text-green-500' />
+                <span>Access all contents</span>
+              </li>
+              <li className='flex items-center gap-4 px-7'>
+                <BsCheckCircleFill className='text-green-500' />
+                <span>See all charts and tables</span>
+              </li>
+              <li className='flex items-center gap-4 px-7'>
+                <BsCheckCircleFill className='text-green-500' />
+                <span>All Webinars</span>
+              </li>
+              <li className='flex items-center gap-4 px-7'>
+                <BsCheckCircleFill className='text-green-500' />
+                <span>Cancel any time</span>
+              </li>
+              <li className='flex items-center gap-4 px-7'>
+                <MdCancel className='text-red-500 text-2xl' />
+                <span>AKT MCQ's</span>
+              </li>
+            </ul>
+
+            <div
+              onClick={() => {
+                window.scrollTo(0, 0)
+                token ? navigate('/userprofile') : navigate('/signup')
+              }}
+              className='text-white cursor-pointer text-center font-semibold rounded-xl hover:bg-[#0704b0] bg-[#044FB0] px-16 py-3 text-[17.8pt]'>
+              <p>£ 4.99 / month</p>
+            </div>
+          </div>
+
+          <div className='flex flex-col w-[315px] justify-between'>
+            <div className='text-white relative text-center font-bold rounded-xl bg-[#044FB0] px-16 py-4 text-[17.8pt] uppercase'>
+              <div className='w-[106.4px] aspect-square rounded-full absolute top-1/2 translate-y-[-50%] -left-5 bg-[#D3D3D3]' />
+              <p>Silver</p>
+            </div>
+
+            <ul className='bg-white font-semibold text-[14.4pt] py-7 flex flex-col gap-2 flex-1'>
+              <li className='flex items-center gap-4 px-7'>
+                <BsCheckCircleFill className='text-green-500' />
+                <span>Access all contents</span>
+              </li>
+              <li className='flex items-center gap-4 px-7'>
+                <BsCheckCircleFill className='text-green-500' />
+                <span>See all charts and tables</span>
+              </li>
+              <li className='flex items-center gap-4 px-7'>
+                <BsCheckCircleFill className='text-green-500' />
+                <span>All Webinars</span>
+              </li>
+              <li className='flex items-center gap-4 px-7'>
+                <BsCheckCircleFill className='text-green-500' />
+                <span>Cancel any time</span>
+              </li>
+              <li className='flex items-center gap-4 px-7'>
+                <BsCheckCircleFill className='text-green-500' />
+                <span>AKT MCQ's</span>
+              </li>
+            </ul>
+
+            <div
+              onClick={() => {
+                window.scrollTo(0, 0)
+                token ? navigate('/userprofile') : navigate('/signup')
+              }}
+              className='text-white text-center cursor-pointer font-semibold rounded-xl hover:bg-[#0704b0] bg-[#044FB0] px-16 py-3 text-[17.8pt]'>
+              <p>£ 9.99 / month</p>
+            </div>
+          </div>
+
+          <div className='flex flex-col w-[350px] justify-between relative'>
+            <img
+              src={OFFER}
+              alt=''
+              className='absolute -bottom-5 -right-1/2 translate-x-[-30%]'
+            />
+            <div className='text-white relative text-center font-bold rounded-xl bg-[#044FB0] px-16 py-4 text-[17.8pt] pl-28 uppercase '>
+              <div className='w-[106.4px] aspect-square rounded-full absolute top-1/2 translate-y-[-50%] -left-5 bg-[#FFD700]' />
+              <p>AKT Super plan</p>
+            </div>
+
+            <div className='flex flex-col bg-white items-center gap-3 font-bold text-[14.5pt] px-6 py-5'>
+              <h5>Everything in Silver plus</h5>
+
+              <div className='flex'>
+                <div className='flex flex-col items-center justify-between'>
+                  <img
+                    src={
+                      'https://a4medicine-charts.s3.ap-southeast-2.amazonaws.com/645f4fe6f2dfc18979e960e4/books/ee30e971-1ed4-4cbf-b01a-929916a55e9b.jpg'
+                    }
+                    alt=''
+                    className='w-20 h-auto'
+                  />
+                  <p className='text-center'>Copy of Visual Guidebook</p>
+                </div>
+
+                <BiPlus className='text-3xl self-center text-yellow-700' />
+
+                <div className='flex flex-col items-center gap-5 justify-between'>
+                  <img src={COMP} alt='' className='w-20 h-auto' />
+                  <p className='text-center'>12 months website access</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              onClick={() => {
+                window.scrollTo(0, 0)
+                token ? navigate('/userprofile') : navigate('/signup')
+              }}
+              className='text-white text-center cursor-pointer font-semibold rounded-xl hover:bg-[#0704b0] bg-[#044FB0] px-16 py-3 text-[17.8pt]'>
+              <p>£ 99.99 / year</p>
+            </div>
+          </div>
+        </div>
+      </div>
+================================================================
+<h3 className='text-[30.7pt] text-[#002B52] flex flex-col items-start rounded-md text-center w-max m-auto font-bold'>
+          <span className='bg-[#d2dee9] px-4 pt-1 rounded-bl-none rounded-xl'>
+            Our Value Monthly plans-
+          </span>
+          <span className='bg-[#d2dee9] px-4 pb-1 rounded-xl rounded-bl-none rounded-tl-none rounded-tr-none'>
+            choose one which suits
+          </span>
+          <span className='bg-[#d2dee9] px-4 pb-1 rounded-xl rounded-tl-none rounded-tr-none'>
+            you best
+          </span>
+        </h3>
+
+==============================================================================================================
+ <div className='flex justify-evenly self-stretch mt-10'>
+        {/* Free Trial Box */}
+        <div className='flex flex-col'>
+          <div className='text-white text-center font-semibold rounded-xl bg-[#044FB0] px-16 py-4 text-[17.8pt]'>
+            <p>Free Trial</p>
+          </div>
+
+          <ul className='bg-white font-semibold text-[14.4pt] py-7 flex flex-col gap-2'>
+            <li className='flex items-center gap-4 px-7'>
+              <BsCheckCircleFill className='text-green-500' />
+              <span>Access all contents</span>
+            </li>
+            <li className='flex items-center gap-4 px-7'>
+              <BsCheckCircleFill className='text-green-500' />
+              <span>See all charts and tables</span>
+            </li>
+            <li className='flex items-center gap-4 px-7'>
+              <BsCheckCircleFill className='text-green-500' />
+              <span>All Webinars</span>
+            </li>
+            <li className='flex items-center gap-4 px-7'>
+              <BsCheckCircleFill className='text-green-500' />
+              <span>Practice MCQ's</span>
+            </li>
+            <li className='flex items-center gap-4 px-7'>
+              <BsCheckCircleFill className='text-green-500' />
+              <span>Cancel any time</span>
+            </li>
+          </ul>
+
+          <div className='text-white text-center font-semibold rounded-xl bg-[#044FB0] px-16 py-4 text-[17.8pt]'>
+            <p>£ 0.00</p>
+          </div>
+        </div>
+
+        <div className='flex flex-col gap-5 uppercase font-bold text-[17.2pt]'>
+          <h4>Our Free Trial?</h4>
+
+          <ul className='list-disc pl-7'>
+            <li className='list-disc'> Access 600+ Colorful Charts</li>
+            <li className='list-disc'>Over 2000 AKT MCQs </li>
+            <li className='list-disc'>Explore Hundreds of Tables</li>
+            <li className='list-disc'>In-Depth NICE Guidelines Coverage</li>
+            <li className='list-disc'>webinars</li>
+            <li className='list-disc'>Fully Referenced Information</li>
+            <li className='list-disc'>
+              no minimum contract or automatic deduction ✌🏽
+            </li>
+          </ul>
+        </div>
+
+        <img src={AttentionGraphics} alt='' className='' />
+      </div>
+===============================================================================================
+<div className='flex gap-2 mt-5 w-[600px]'>
+        <BsShieldFillCheck className='text-7xl text-green-500' />
+        <p className='text-black text-center font-bold text-[15.7pt] italic'>
+          Rest assured, your payment information is only requested to maintain a
+          secure environment—no charges unless you choose to subscribe. Join now
+          and dive into a week of enriching learning!
+        </p>
+      </div>
+==========================================================
+  <h3 className='text-[30.7pt] text-[#002B52] flex flex-col items-start rounded-md text-center w-max m-auto font-bold'>
+        <span className='bg-[#d2dee9] px-4 pt-1 rounded-bl-none rounded-xl'>
+          Clear and affordable
+        </span>
+        <span className='bg-[#d2dee9] px-4 pb-1 rounded-xl rounded-tl-none rounded-tr-none'>
+          price plans
+        </span>
+      </h3>
+============================Top div ==========================
+ <div className='w-60 aspect-square rounded-full absolute bg-white top-0 right-10 mt-44 overflow-hidden flex items-center justify-center md:right-20 mt-16 lg:mt-44 md:mt-18  md:w-60 lg:w-72 '>
+      <img
+      src={LOGO}
+      alt=''
+      className='w-full h-full object-contain scale-75 mx-auto'
+    />
+    
